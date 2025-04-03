@@ -35,7 +35,6 @@ def main():
             if asteroid.isColliding(player):
                 print("Game over!")
                 sys.exit(0)
-        # This is not working!
         for asteroid in asteroids:
             for shot in shots:
                 if shot.isColliding(asteroid):
